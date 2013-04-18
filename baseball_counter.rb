@@ -3,3 +3,4 @@ class BaseballCounter
     "010"
   end
 end
+
