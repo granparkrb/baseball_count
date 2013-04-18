@@ -29,3 +29,4 @@ describe BaseballCounter do
     @counter.count("ssffpffssp") == "010,020,020,020,100,110,120,200,210,000"
   end
 end
+
