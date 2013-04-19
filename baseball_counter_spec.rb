@@ -8,7 +8,7 @@ describe BaseballCounter do
     @counter.count("s") == "010"
     @counter.count("ss") == "010,020"
     @counter.count("sss") == "010,020,100"
-    @counter.count("ssbs") == "010,020,120,100"
+    @counter.count("ssbs") == "010,020,021,100"
   end
   it "should count ball upto 3, and clear s and b" do
     @counter.count("bbb") == "001,002,003"
